@@ -1,0 +1,98 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 15px;
+    text-align: center;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    background-color: #333;
+    padding: 10px 20px;
+    margin: 0 10px;
+    border-radius: 5px;
+}
+
+nav a:hover {
+    background-color: #555;
+}
+
+section {
+    padding: 20px;
+    background-color: white;
+    margin: 20px auto;
+    width: 60%;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.navigation {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.nav-button {
+    text-decoration: none;
+    padding: 10px 20px;
+    background-color: #333;
+    color: white;
+    border-radius: 5px;
+    margin: 0 5px;
+}
+
+.nav-button:hover {
+    background-color: #555;
+}
+
+.progress {
+    display: grid;
+    grid-template-columns: repeat(5, 30px); /* 5 кружков в ряду */
+    gap: 10px; /* Отступы между кружками */
+    margin-right: 20px; /* Отступ справа от контейнера */
+    float: left; /* Чтобы контейнер расположился слева от вопросов */
+    position: absolute;
+    top: 22%;
+    left: 2%;
+}
+
+.circle-container {
+    display: grid;
+    grid-template-columns: repeat(5, 30px); /* 5 кружков в ряду */
+    gap: 10px; /* Отступы между кружками */
+    margin-right: 20px; /* Отступ справа от контейнера */
+    float: left; /* Чтобы контейнер расположился слева от вопросов */
+}
+
+.circle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #ccc;
+    color: white;
+    text-decoration: none;
+}
+
+.circle.active {
+    background-color: #333;
+}
+
+.circle:hover {
+    background-color: #555;
+}
